@@ -1,0 +1,11 @@
+<div class="container">
+    <div *ngFor="let todo of todos; index as i" class="task">
+        <div class="description">
+            <div class="indicator"></div>
+            <span>{{todo.description}}</span>
+        </div>
+        <div class="options">
+            <img src="assets/trash-restore-alt.png" alt="">
+        </div>
+    </div>  
+</div>

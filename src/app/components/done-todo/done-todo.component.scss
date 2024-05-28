@@ -1,0 +1,33 @@
+.done-todo{
+    padding: 2.5rem; 
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid #6d6457;
+    min-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress{
+    padding: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ff5631;
+    color: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.title-description h1{
+    color: #cebea4;
+}
+
+.title-description p{
+    color: #cebea4;
+    letter-spacing: 3px;
+}
